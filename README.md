@@ -1,3 +1,5 @@
+Actually, I copied [this repo](https://github.com/marinmaslov/stl-viewer) to save this code base if it is removed.
+
 Flask Web app for vieweing STL files based on Three.js library.
 
 
