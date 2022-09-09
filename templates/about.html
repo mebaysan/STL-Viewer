@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}STL Viewer{% endblock %}
+
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+{% endblock %}
+
+
+{% block header %}
+<div id="header-image">
+  <div class="overlay">
+    <h2>About STL Viewer</h2>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<form class="file-upload" method="post">
+    <h2>Backend:</h2>
+    <h4>Flask (Python)</h4>
+    <h2>Frontend:</h2>
+    <h4>JavaScript using the Three.js library</h4>
+    <h2>Created by:</h2>
+    <h4>Marin Maslov</h4>
+</form>
+{% endblock %}
