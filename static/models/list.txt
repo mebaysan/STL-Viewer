@@ -1,9 +1,3 @@
-object.stl
-KucisteSNogama.stl
-brodicaDonjaStrana.stl
-PropelaBlag.stl
-VAWT_Lopatica.stl
-ZubcastaPumpa_Zubcanik.stl
 cerberus3.stl
 cerberus2.stl
 Cerberus.stl
